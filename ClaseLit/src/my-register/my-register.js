@@ -2,7 +2,7 @@ import { LitElement, html } from 'lit-element';
 import stylesCss from '../my-login/my-loginStyle'
 
 
-export class Myregister extends LitElement {
+export class MyRegister extends LitElement {
 
   static get styles(){
     return[stylesCss]
@@ -49,6 +49,6 @@ export class Myregister extends LitElement {
     }
   }
   
-customElements.define('my-register', Myregister);
+customElements.define('my-register', MyRegister);
 
 
